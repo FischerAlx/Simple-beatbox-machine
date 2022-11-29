@@ -25,7 +25,7 @@
 		AA9F81802934091500531EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9F81832934091500531EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9F81852934091500531EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA9F81A6293643C800531EF2 /* Kick.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; path = Kick.wav; sourceTree = "<group>"; };
+		AA9F81A6293643C800531EF2 /* Kick.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = Kick.wav; path = "Simple beatbox machine/Sounds/Kick.wav"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
