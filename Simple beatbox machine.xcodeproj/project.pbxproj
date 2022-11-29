@@ -13,6 +13,7 @@
 		AA9F817F2934091300531EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F817D2934091300531EF2 /* Main.storyboard */; };
 		AA9F81812934091500531EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81802934091500531EF2 /* Assets.xcassets */; };
 		AA9F81842934091500531EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81822934091500531EF2 /* LaunchScreen.storyboard */; };
+		AA9F81A7293643C800531EF2 /* Kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81A6293643C800531EF2 /* Kick.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA9F81802934091500531EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9F81832934091500531EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9F81852934091500531EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9F81A6293643C800531EF2 /* Kick.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; path = Kick.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				AA9F81802934091500531EF2 /* Assets.xcassets */,
 				AA9F81822934091500531EF2 /* LaunchScreen.storyboard */,
 				AA9F81852934091500531EF2 /* Info.plist */,
+				AA9F81A5293643C800531EF2 /* Sounds */,
 			);
 			path = "Simple beatbox machine";
+			sourceTree = "<group>";
+		};
+		AA9F81A5293643C800531EF2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F81A6293643C800531EF2 /* Kick.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				AA9F81842934091500531EF2 /* LaunchScreen.storyboard in Resources */,
 				AA9F81812934091500531EF2 /* Assets.xcassets in Resources */,
+				AA9F81A7293643C800531EF2 /* Kick.wav in Resources */,
 				AA9F817F2934091300531EF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
