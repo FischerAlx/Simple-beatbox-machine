@@ -42,6 +42,9 @@
                                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DP4-bs-d22"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-WB-xev">
                                                 <rect key="frame" x="202" y="0.0" width="100" height="100"/>
@@ -51,6 +54,9 @@
                                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Vz-k0-1ze"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -69,6 +75,9 @@
                                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vv1-WE-gFj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qw-Gf-pgJ">
                                                 <rect key="frame" x="101" y="0.0" width="100" height="100"/>
@@ -78,6 +87,9 @@
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfn-lP-u6L"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXr-H4-3f1">
                                                 <rect key="frame" x="202" y="0.0" width="100" height="100"/>
@@ -87,6 +99,9 @@
                                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BHO-ND-hWk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -105,6 +120,9 @@
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4db-fy-tox"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tod-ia-LGm">
                                                 <rect key="frame" x="101" y="0.0" width="100" height="100"/>
@@ -114,6 +132,9 @@
                                                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5au-yN-eyi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOv-84-O0X">
                                                 <rect key="frame" x="202" y="0.0" width="100" height="100"/>
@@ -123,6 +144,9 @@
                                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AnC-Bp-ueZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
