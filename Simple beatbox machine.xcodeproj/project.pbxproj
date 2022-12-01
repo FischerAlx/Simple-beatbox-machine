@@ -13,7 +13,12 @@
 		AA9F817F2934091300531EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F817D2934091300531EF2 /* Main.storyboard */; };
 		AA9F81812934091500531EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81802934091500531EF2 /* Assets.xcassets */; };
 		AA9F81842934091500531EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81822934091500531EF2 /* LaunchScreen.storyboard */; };
-		AA9F81A7293643C800531EF2 /* Kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81A6293643C800531EF2 /* Kick.wav */; };
+		AA9F81AB29392D5B00531EF2 /* Kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81AA29392D5B00531EF2 /* Kick.wav */; };
+		AA9F81BE2939612800531EF2 /* Perc 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81B92939612800531EF2 /* Perc 1.wav */; };
+		AA9F81BF2939612800531EF2 /* Bass C.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81BA2939612800531EF2 /* Bass C.wav */; };
+		AA9F81C02939612800531EF2 /* Perc 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81BB2939612800531EF2 /* Perc 2.wav */; };
+		AA9F81C12939612800531EF2 /* Snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81BC2939612800531EF2 /* Snare.wav */; };
+		AA9F81C22939612800531EF2 /* Clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA9F81BD2939612800531EF2 /* Clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +30,12 @@
 		AA9F81802934091500531EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9F81832934091500531EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9F81852934091500531EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA9F81A6293643C800531EF2 /* Kick.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = Kick.wav; path = "Simple beatbox machine/Sounds/Kick.wav"; sourceTree = SOURCE_ROOT; };
+		AA9F81AA29392D5B00531EF2 /* Kick.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = Kick.wav; path = "Simple beatbox machine/Sounds/Kick.wav"; sourceTree = SOURCE_ROOT; };
+		AA9F81B92939612800531EF2 /* Perc 1.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = "Perc 1.wav"; path = "Simple beatbox machine/Sounds/Perc 1.wav"; sourceTree = SOURCE_ROOT; };
+		AA9F81BA2939612800531EF2 /* Bass C.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = "Bass C.wav"; path = "Simple beatbox machine/Sounds/Bass C.wav"; sourceTree = SOURCE_ROOT; };
+		AA9F81BB2939612800531EF2 /* Perc 2.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = "Perc 2.wav"; path = "Simple beatbox machine/Sounds/Perc 2.wav"; sourceTree = SOURCE_ROOT; };
+		AA9F81BC2939612800531EF2 /* Snare.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = Snare.wav; path = "Simple beatbox machine/Sounds/Snare.wav"; sourceTree = SOURCE_ROOT; };
+		AA9F81BD2939612800531EF2 /* Clap.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = Clap.wav; path = "Simple beatbox machine/Sounds/Clap.wav"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +83,16 @@
 		AA9F81A5293643C800531EF2 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				AA9F81A6293643C800531EF2 /* Kick.wav */,
+				AA9F81BA2939612800531EF2 /* Bass C.wav */,
+				AA9F81BD2939612800531EF2 /* Clap.wav */,
+				AA9F81B92939612800531EF2 /* Perc 1.wav */,
+				AA9F81BB2939612800531EF2 /* Perc 2.wav */,
+				AA9F81BC2939612800531EF2 /* Snare.wav */,
+				AA9F81AA29392D5B00531EF2 /* Kick.wav */,
 			);
-			path = Sounds;
-			sourceTree = "<group>";
+			name = Sounds;
+			path = "Simple beatbox machine/Sounds";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -136,10 +152,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9F81BF2939612800531EF2 /* Bass C.wav in Resources */,
 				AA9F81842934091500531EF2 /* LaunchScreen.storyboard in Resources */,
 				AA9F81812934091500531EF2 /* Assets.xcassets in Resources */,
-				AA9F81A7293643C800531EF2 /* Kick.wav in Resources */,
+				AA9F81AB29392D5B00531EF2 /* Kick.wav in Resources */,
+				AA9F81C22939612800531EF2 /* Clap.wav in Resources */,
+				AA9F81BE2939612800531EF2 /* Perc 1.wav in Resources */,
 				AA9F817F2934091300531EF2 /* Main.storyboard in Resources */,
+				AA9F81C12939612800531EF2 /* Snare.wav in Resources */,
+				AA9F81C02939612800531EF2 /* Perc 2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

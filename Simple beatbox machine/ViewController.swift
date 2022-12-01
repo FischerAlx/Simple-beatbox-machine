@@ -16,13 +16,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyKickPressed(_ sender: UIButton) {
-        print(sender.titleLabel?.text!)
-        playSound()
+        
+        playSound((sender.titleLabel?.text!)!)
         
     }
     
-    func playSound() {
-        let url = Bundle.main.url(forResource: "Kick", withExtension: "wav")
+    func playSound(_ whichButtonPressed: String) {
+        let url = Bundle.main.url(forResource: "\(whichButtonPressed)", withExtension: "wav")
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
     }
