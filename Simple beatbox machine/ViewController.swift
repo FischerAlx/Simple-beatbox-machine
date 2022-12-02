@@ -17,7 +17,17 @@ class ViewController: UIViewController {
 
     @IBAction func keyKickPressed(_ sender: UIButton) {
         
-        playSound((sender.titleLabel?.text!)!)
+        
+        UIView.animate(withDuration: 0.3) {
+                sender.alpha = 0.5
+            }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1 ) {
+            UIView.animate(withDuration: 0.1) {
+                sender.alpha = 1.0
+                self.playSound((sender.titleLabel?.text!)!)
+            }
+        }
         
     }
     
