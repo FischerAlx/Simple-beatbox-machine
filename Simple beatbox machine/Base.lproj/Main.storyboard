@@ -16,43 +16,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zuo-Im-bGz">
-                                <rect key="frame" x="45.666666666666657" y="275" width="302" height="302"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Zuo-Im-bGz">
+                                <rect key="frame" x="45.666666666666657" y="264" width="302" height="324"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-Ky-Q6q">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-Ky-Q6q">
                                         <rect key="frame" x="0.0" y="0.0" width="302" height="100"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfy-Xh-ScL">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92.666666666666671" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Kick">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMv-PQ-5hz"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UX-E2-rWi">
-                                                <rect key="frame" x="101" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="104.66666666666669" y="0.0" width="92.666666666666686" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Clap">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DP4-bs-d22"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-WB-xev">
-                                                <rect key="frame" x="202" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="209.33333333333334" y="0.0" width="92.666666666666657" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Snare">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Vz-k0-1ze"/>
@@ -64,40 +67,43 @@
                                             <constraint firstAttribute="width" constant="302" id="P7m-sw-0W9"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="M3j-hv-oyd">
-                                        <rect key="frame" x="0.0" y="101" width="302" height="100"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="M3j-hv-oyd">
+                                        <rect key="frame" x="0.0" y="112" width="302" height="100"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJp-if-s0v">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92.666666666666671" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Bass F#">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vv1-WE-gFj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qw-Gf-pgJ">
-                                                <rect key="frame" x="101" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="104.66666666666669" y="0.0" width="92.666666666666686" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Perc 1">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfn-lP-u6L"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXr-H4-3f1">
-                                                <rect key="frame" x="202" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="209.33333333333334" y="0.0" width="92.666666666666657" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Perc 2">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BHO-ND-hWk"/>
@@ -109,40 +115,43 @@
                                             <constraint firstAttribute="height" constant="100" id="aZm-X1-LuE"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-Xw-zpf">
-                                        <rect key="frame" x="0.0" y="202" width="302" height="100"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-Xw-zpf">
+                                        <rect key="frame" x="0.0" y="224" width="302" height="100"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq6-R0-4cg">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="92.666666666666671" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Bass A">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4db-fy-tox"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tod-ia-LGm">
-                                                <rect key="frame" x="101" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="104.66666666666669" y="0.0" width="92.666666666666686" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Bass B">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5au-yN-eyi"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOv-84-O0X">
-                                                <rect key="frame" x="202" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="209.33333333333334" y="0.0" width="92.666666666666657" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Bass C">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                     </backgroundConfiguration>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="keyKickPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AnC-Bp-ueZ"/>
@@ -171,6 +180,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
